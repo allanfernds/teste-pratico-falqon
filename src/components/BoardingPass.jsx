@@ -7,10 +7,10 @@ function BoardingPass() {
       <div className="flex-col justify-center items-center content-center">
         <div className="flex">
           <div className="p-2 pt-3 text-left  bg-custom-vivid-green w-[50%] rounded-tl-sm">
-            <p className="font-runda-normal text-xs">BOARDING PASS</p>
+            <p className="font-runda-bold text-xs ml-1">BOARDING PASS</p>
           </div>
           <div className="p-2 pt-3 text-center bg-custom-soft-black w-[50%] rounded-tr-sm">
-            <p className="font-runda-normal text-xs">GATE CLOSES AT 10.00</p>
+            <p className="font-runda-bold text-xs">GATE CLOSES AT 10.00</p>
           </div>
         </div>
         <div className="flex pt-5 pl-3 pr-4 justify-between items-center h-20">
@@ -35,8 +35,8 @@ function BoardingPass() {
           </div>
         </div>
         <div className="flex justify-between px-4 font-runda-light text-[10pt]">
-          <span>London, England</span>
-          <span>New York City, USA</span>
+          <span className="text-gray-400">London, England</span>
+          <span className="text-gray-400">New York City, USA</span>
         </div>
         <div
           id="linha"
@@ -44,19 +44,19 @@ function BoardingPass() {
         ></div>
         <div class="grid grid-cols-3 pt-3">
           <div className=" h-20">
-            <p className="uppercase font-runda-light text-[11pt] text-center">
+            <p className="uppercase text-gray-500 font-runda-light text-[11pt] text-center">
               flight
             </p>
             <p className=" font-runda-light text-[14pt] text-center">VA2501</p>
           </div>
           <div className=" h-20">
-            <p className="uppercase font-runda-light text-[11pt] text-center">
+            <p className="uppercase text-gray-500 font-runda-light text-[11pt] text-center">
               seat
             </p>
             <p className=" font-runda-light text-[14pt] text-center">35a</p>
           </div>
           <div>
-            <p className="uppercase font-runda-light text-[11pt] text-center">
+            <p className="uppercase text-gray-500 font-runda-light text-[11pt] text-center">
               gate
             </p>
             <p className=" font-runda-light text-[14pt] text-center">34B</p>
@@ -64,7 +64,7 @@ function BoardingPass() {
         </div>
         <div className="grid grid-cols-3 p">
           <div className="col-span-1 h-20">
-            <p className="uppercase font-runda-light text-[11pt] text-center">
+            <p className="uppercase text-gray-500             font-runda-light text-[11pt] text-center">
               flight
             </p>
             <p className=" font-runda-light text-[14pt] text-center">VA2501</p>

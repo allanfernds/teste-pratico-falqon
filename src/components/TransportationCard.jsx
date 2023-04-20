@@ -3,8 +3,8 @@ import WaypointMark from "./WaypointMark";
 import people_icon from "../assets/images/people_icon.png";
 function TransportationCard() {
   return (
-    <div className="bg-driver bg-cover bg-no-repeat my-6 rounded-sm">
-      <div className="flex justify-center  items-center py-20 bg-custom-soft-black bg-gradient-to-bl bg-opacity-90 p-5 rounded-sm">
+    <div className="bg-driver bg-cover bg-no-repeat rounded-sm">
+      <div className="flex justify-center  items-center py-8 bg-custom-soft-black bg-gradient-to-bl bg-opacity-90 p-5 rounded-sm">
         <ol className="flex-col">
           <li>
             <div className="flex content-start items-start gap-2 flex-wrap mb-8">
