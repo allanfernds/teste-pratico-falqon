@@ -1,5 +1,5 @@
 import React from "react";
-import airplane_icon from "../assets/icons/24px/grey_airplane_icon.svg";
+import airplane_icon from "../assets/icons/24px/gray_airplane_icon.svg";
 
 function BoardingPass() {
   return (
