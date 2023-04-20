@@ -23,6 +23,7 @@ module.exports = {
                 'hero': "url('/src/assets/images/hero_image.png')",
                 'accomodation': "url('/src/assets/images/hotel_bed.png')",
                 'driver': "url('/src/assets/images/car_driver.png')",
+                'liberty_statue': "url('/src/assets/images/statue_of_liberty.png')",
 
             }
         },
