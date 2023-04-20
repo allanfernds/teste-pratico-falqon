@@ -5,7 +5,7 @@ import TransportVehicleIcon from "./TransportVehicleIcon";
 
 function DestinationForm() {
   return (
-    <div className="my-3 bg-gradient-to-br from-indigo-700 to-purple-600 p-6">
+    <div className="my-3 bg-gradient-to-br from-indigo-700 to-purple-600 p-6 rounded-sm">
       <form>
         <div className="flex-col justify-center items-center">
           <div className="flex my-2">

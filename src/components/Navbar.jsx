@@ -6,7 +6,7 @@ import heart_icon from "../assets/icons/24px/heart_icon.svg";
 
 function Navbar() {
   return (
-    <nav className="bg-custom-dark-purple fixed bottom-0 left-0 w-full h-[60px]">
+    <nav className="bg-custom-dark-purple fixed bottom-0 left-0 w-full h-[65px]">
       <ol className="flex justify-between p-5 px-9">
         <li>
           <button>
@@ -14,13 +14,19 @@ function Navbar() {
           </button>
         </li>
         <li>
-          <img src={discover_icon} alt="" className="w-6 h-6" />
+          <button>
+            <img src={discover_icon} alt="" className="w-6 h-6" />
+          </button>
         </li>
         <li>
-          <img src={traveller_icon} alt="" className="w-6 h-6" />
+          <button>
+            <img src={traveller_icon} alt="" className="w-8 h-8" />
+          </button>
         </li>
         <li>
-          <img src={heart_icon} alt="" className="w-6 h-6" />
+          <button>
+            <img src={heart_icon} alt="" className="w-6 h-6" />
+          </button>
         </li>
       </ol>
     </nav>
