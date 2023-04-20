@@ -6,7 +6,7 @@ function AccomodationCard() {
     <div className="bg-accomodation bg-cover bg-center h-96 pb-3 w flex items-end rounded-sm">
       <div className="top-70 bg-custom-soft-black w-full font-runda-normal text-white text-[20pt] p-6">
         <div className="flex justify-between items-center">
-          <h3>The James Hotel</h3>
+          <h3 className="text-2xl">The James Hotel</h3>
           <span className=" w-20 flex justify-center items-center font-runda-light uppercase text-[10pt] h-7 bg-gradient-to-br from-indigo-700 to-purple-600">
             4 nights
           </span>
