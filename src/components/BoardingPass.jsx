@@ -62,7 +62,7 @@ function BoardingPass() {
             <p className=" font-runda-light text-[14pt] text-center">34B</p>
           </div>
         </div>
-        <div className="grid grid-cols-3 pt-3 p">
+        <div className="grid grid-cols-3 p">
           <div className="col-span-1 h-20">
             <p className="uppercase font-runda-light text-[11pt] text-center">
               flight
@@ -72,7 +72,7 @@ function BoardingPass() {
           <div className="col-span-2 h-20">
             <button
               type="button"
-              className="uppercase bg-custom-dark-purple ml-4 text-[11px] w-[80%] h-14"
+              className="rounded-sm uppercase bg-custom-dark-purple ml-4 text-[11px] w-[80%] h-14"
             >
               view boarding pass
             </button>
