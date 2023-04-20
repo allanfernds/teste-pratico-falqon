@@ -12,11 +12,15 @@ module.exports = {
             colors: {
                 'bright-purple': '#7B1FA2',
                 'dark-purple': '#431C60',
+                'bg-purple': '#261136',
                 'light-blue': '#AAB5E0',
                 'royal-blue': '#4527A0',
                 'vivid-green': '#8BC34A',
                 'soft-black': '#272727',
             },
+            backgroundImage: {
+                'hero': "url('/src/assets/images/hero_image.png')",
+            }
         },
     },
     plugins: [],
