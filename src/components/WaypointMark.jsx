@@ -3,8 +3,8 @@ import pencil_icon from "../assets/icons/36px/pencil_icon.svg";
 
 function WaypointMark({ vehicle, street, referencePoint, destination }) {
   return (
-    <div className="flex content-start items-start gap-2 flex-wrap">
-      <div className="flex-col gap-0">
+    <div className="flex content-start items-start gap-2 ">
+      <div className="flex-col">
         <div className="flex justify-center items-center border-2 border-white w-9 h-9  rounded-full ">
           {destination ? (
             <div className="bg-custom-light-blue rounded-full h-6 w-6"></div>

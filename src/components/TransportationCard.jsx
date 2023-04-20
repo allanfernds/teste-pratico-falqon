@@ -4,7 +4,7 @@ import WaypointMark from "./WaypointMark";
 function TransportationCard() {
   return (
     <div className="bg-driver bg-cover bg-no-repeat mt-3">
-      <div className="bg-custom-soft-black bg-opacity-90 pl-9 py-9">
+      <div className="flex justify-center  items-center bg-custom-soft-black bg-opacity-80 p-5">
         <ol className="flex-col">
           <li>
             <div className="flex content-start items-start gap-2 flex-wrap mb-8">

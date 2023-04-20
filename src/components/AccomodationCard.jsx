@@ -1,9 +1,9 @@
 import React from "react";
 import pin_icon from "../assets/icons/16px/pin_icon.svg";
 
-function AccomodationCard() {
+function AccomodationCard({ nightsQuantity, localName }) {
   return (
-    <div className="bg-accomodation bg-cover bg-center h-96 pb-3 w flex items-end rounded-sm">
+    <div className="bg-accomodation bg-cover bg-center bg-no-repeat w-[100%] h-96 flex items-end rounded-sm">
       <div className="top-70 bg-custom-soft-black w-full font-runda-normal text-white text-[20pt] p-6">
         <div className="flex justify-between items-center">
           <h3 className="text-2xl">The James Hotel</h3>

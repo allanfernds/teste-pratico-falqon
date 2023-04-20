@@ -13,25 +13,25 @@ function BoardingPass() {
             <p className="font-runda-normal text-xs">GATE CLOSES AT 10.00</p>
           </div>
         </div>
-        <div className="flex pt-5 px-3 justify-between items-center h-20">
+        <div className="flex pt-5 pl-3 pr-4 justify-between items-center h-20">
           <div>
-            <span className="font-runda-normal text-[3rem]">LHR</span>
+            <span className="font-runda-normal text-5xl">LHR</span>
           </div>
-          <div>
+          <div className="flex justify-around">
             <div className="flex justify-center items-center">
-              <div className="bg-custom-line-grey mb-3 w-9 h-[1px]" />
-              <div className="ml-2 mr-3  mb-3">
+              <div className="bg-custom-line-grey mb-3 w-5 h-[1px]" />
+              <div className="mx-2 left-20 mb-3">
                 <img
                   className="rotate-45"
                   src={airplane_icon}
                   alt="icone de um avião"
                 />
               </div>
-              <div className="bg-custom-line-grey mb-3 w-9 h-[1px]" />
+              <div className="bg-custom-line-grey mb-3 w-5 h-[1px]" />
             </div>
           </div>
           <div>
-            <span className="font-runda-normal text-[48px]">JFK</span>
+            <span className="font-runda-normal text-5xl">JFK</span>
           </div>
         </div>
         <div className="flex justify-between px-4 font-runda-light text-[10pt]">
