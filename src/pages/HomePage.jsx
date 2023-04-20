@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection from "../components/HeroSection";
-import CardSection from "../components/CardSection";
+
 import UserPlans from "../components/UserPlans";
 
 function HomePage() {
