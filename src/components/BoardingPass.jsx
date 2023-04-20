@@ -3,7 +3,7 @@ import airplane_icon from "../assets/icons/24px/grey_airplane_icon.svg";
 
 function BoardingPass() {
   return (
-    <div className="w-full bg-custom-soft-black relative top-[212px] bg-opacity-95 text-white rounded-sm shadow-sm">
+    <div className="w-full bg-custom-soft-black relative top-[120px] bg-opacity-95 text-white rounded-sm shadow-sm">
       <div className="flex-col justify-center items-center content-center">
         <div className="flex">
           <div className="p-2 pt-3 text-left  bg-custom-vivid-green w-[50%] rounded-tl-sm">

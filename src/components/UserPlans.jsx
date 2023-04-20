@@ -4,6 +4,7 @@ import add_new_btn from "../assets/icons/56px/add_icon.svg";
 import AccomodationCard from "./AccomodationCard";
 import TransportationCard from "./TransportationCard";
 import PlaceToVisitCard from "./PlaceToVisitCard";
+import DestinationForm from "./DestinationForm";
 
 function UserPlans() {
   return (
@@ -24,6 +25,7 @@ function UserPlans() {
       <AccomodationCard />
       <TransportationCard />
       <PlaceToVisitCard />
+      <DestinationForm />
     </section>
   );
 }

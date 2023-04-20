@@ -23,7 +23,7 @@ function WaypointMark({ vehicle, street, referencePoint, destination }) {
           <h4 className="font-runda-normal hover:text-purple-700 text-2xl">
             {destination ? "Destination" : vehicle}
           </h4>
-          <p className="text-xs w-48">
+          <p className="text-xs w-48 font-runda-normal">
             {street} <br /> {referencePoint}
           </p>
         </div>
