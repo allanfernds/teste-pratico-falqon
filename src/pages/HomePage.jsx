@@ -1,11 +1,18 @@
 import React from "react";
 import HeroSection from "../components/HeroSection";
+import CardSection from "../components/CardSection";
+import UserPlans from "../components/UserPlans";
 
 function HomePage() {
   return (
-    <header>
-      <HeroSection />
-    </header>
+    <>
+      <header className="bg-custom-bg-purple">
+        <HeroSection />
+      </header>
+      <main>
+        <UserPlans />
+      </main>
+    </>
   );
 }
 

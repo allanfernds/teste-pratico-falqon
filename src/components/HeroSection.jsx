@@ -8,7 +8,7 @@ function HeroSection() {
         <div class="bg-hero bg-cover bg-center bg-no-repeat h-96 w-full px-5">
           <BoardingPass />
         </div>
-        {/* <div class="h-[137px] bg-custom-bg-purple"></div> */}
+        <div class="h-[180px] bg-custom-bg-purple"></div>
       </div>
     </section>
   );
