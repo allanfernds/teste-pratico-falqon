@@ -2,6 +2,7 @@ import React from "react";
 
 import add_new_btn from "../assets/icons/56px/add_icon.svg";
 import AccomodationCard from "./AccomodationCard";
+import TransportationCard from "./TransportationCard";
 
 function UserPlans() {
   return (
@@ -20,6 +21,7 @@ function UserPlans() {
       </div>
 
       <AccomodationCard />
+      <TransportationCard />
     </section>
   );
 }
