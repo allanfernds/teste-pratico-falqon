@@ -1,11 +1,15 @@
 import React from "react";
+import BoardingPass from "./BoardingPass";
 
 function HeroSection() {
   return (
     <section id="hero">
-      <div className="bg-hero h-[368px]"></div>
-      <div className="h-[279px] w-[333x] bg-"></div>
-      <div className="h-[137px] bg-bg-purple"></div>
+      <div className="flex-col">
+        <div class="bg-hero bg-cover bg-center bg-no-repeat h-[368px] w-full px-5">
+          <BoardingPass />
+        </div>
+        <div class="h-[137px] bg-custom-bg-purple"></div>
+      </div>
     </section>
   );
 }

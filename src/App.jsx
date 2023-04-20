@@ -2,7 +2,7 @@ import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <main className="w-[375px]">
+    <main>
       <HomePage />
     </main>
   );

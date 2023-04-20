@@ -10,13 +10,14 @@ module.exports = {
                 'runda-bold': ['Runda_Bold', 'sans']
             },
             colors: {
-                'bright-purple': '#7B1FA2',
-                'dark-purple': '#431C60',
-                'bg-purple': '#261136',
-                'light-blue': '#AAB5E0',
-                'royal-blue': '#4527A0',
-                'vivid-green': '#8BC34A',
-                'soft-black': '#272727',
+                'custom-bright-purple': '#7B1FA2',
+                'custom-dark-purple': '#431C60',
+                'custom-bg-purple': '#261136',
+                'custom-light-blue': '#AAB5E0',
+                'custom-royal-blue': '#4527A0',
+                'custom-vivid-green': '#8BC34A',
+                'custom-soft-black': '#272727',
+                'custom-line-grey': '#707070',
             },
             backgroundImage: {
                 'hero': "url('/src/assets/images/hero_image.png')",
