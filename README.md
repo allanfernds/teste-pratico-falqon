@@ -19,7 +19,8 @@ O processo de desenvolvimento seguiu as seguintes etapas:
 
 1. Análise do protótipo fornecido e definição das tecnologias a serem utilizadas.
 2. Criação do esqueleto do projeto utilizando o Vite.js e configuração do ambiente de desenvolvimento.
-3. Organização dos diretórios como `fonts`, `components`, `pages`, `assets`, entre outros. ![folders](src/assets/project_images/folders.png)
+3. Organização dos diretórios como `fonts`, `components`, `pages`, `assets`, entre outros. 
+![folders](src/assets/project_images/folders.png)
 4. Configuração das variaveis de desenvolvimento como, cores, fontes, imagens  ![Css config](src/assets/project_images/css_coonfig.png)
 5. Criação e implementação dos componentes de cards.
 6. Testes em dispositivos móveis e ajustes finais.
