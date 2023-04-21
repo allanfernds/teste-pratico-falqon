@@ -29,7 +29,7 @@ function DestinationForm() {
         </div>
       </form>
       <div className="bg-custom-line-grey my-5 w-full h-[1px]" />
-      <div className="flex justify-between gap-5 flex-wrap h-full">
+      <div className="flex justify-between gap-2 flex-wrap h-full">
         <TransportVehicleIcon
           image={taxi_icon}
           price="$65-$105"
