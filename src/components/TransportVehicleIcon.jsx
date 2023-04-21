@@ -15,7 +15,7 @@ function TransportVehicleIcon({ image, price, vehicle, color }) {
         </div>
       </button>
       <div className="mt-3 hover:text-white">
-        <p className="text-center font-runda-light uppercase text-gray-300  hover:text-white text-sm">
+        <p className="text-center font-runda-normal uppercase text-gray-300  hover:text-white text-sm">
           {price}
           <br />
           {vehicle}

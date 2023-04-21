@@ -4,7 +4,7 @@ import clock_icon from "../assets/icons/16px/clock_icon.svg";
 function PlaceToVisitCard() {
   return (
     <div className="my-3 bg-liberty_statue bg-cover bg-center bg-no-repeat w-full h-[380px] flex items-end rounded-sm">
-      <div className="backdrop-blur-md bg-opacity-70 bg-black w-full font-runda-normal text-white text-[20pt] p-6 mb-3">
+      <div className="backdrop-blur-md bg-opacity-70 bg-black w-full font-runda-normal text-white text-[20pt] p-6">
         <div className="flex justify-between items-center">
           <h3 className="text-2xl">Lady Liberty Tour</h3>
         </div>
