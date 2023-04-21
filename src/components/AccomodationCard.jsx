@@ -3,7 +3,7 @@ import pinIcon from "../assets/icons/16px/pin_icon.svg";
 
 const AccomodationCard = () => {
   return (
-    <div className="mb-3 bg-accomodation bg-cover bg-center bg-no-repeat w-full h-96 flex items-end rounded-sm">
+    <div className=" mb-3 bg-accomodation bg-cover bg-center bg-no-repeat  h-96 max-h-[375px] flex items-end rounded-sm">
       <div className="backdrop-blur-md bg-opacity-70  mb-2  bg-black w-full font-runda-normal text-white text-2xl p-6">
         <div className="flex justify-betweenitems-center">
           <h3>The James Hotel</h3>

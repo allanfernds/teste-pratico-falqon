@@ -5,10 +5,10 @@ import TransportVehicleIcon from "./TransportVehicleIcon";
 
 function DestinationForm() {
   return (
-    <div className="my-3 bg-gradient-to-br from-indigo-700 to-purple-600 p-6 rounded-sm">
+    <div className="my-3 bg-gradient-to-br from-indigo-700 min-h-[335px] to-purple-600 px-6 pt-5  rounded-sm">
       <form>
         <div className="flex-col justify-center items-center">
-          <div className="flex my-2">
+          <div className="flex my-2 bg-white">
             <p className="w-[50px] bg-white text-custom-light-blue p-3 w-">
               From
             </p>
@@ -18,7 +18,7 @@ function DestinationForm() {
               placeholder="JFK Airport "
             />
           </div>
-          <div className="flex my-3">
+          <div className="flex my-3 bg-white">
             <p className="w-[55px] bg-white text-custom-light-blue p-3">To</p>
             <input
               type="text"
@@ -29,7 +29,7 @@ function DestinationForm() {
         </div>
       </form>
       <div className="bg-custom-line-grey my-5 w-full h-[1px]" />
-      <div className="flex justify-center gap-5">
+      <div className="flex justify-center gap-5 flex-wrap h-full">
         <TransportVehicleIcon
           image={taxi_icon}
           price="$65-$105"

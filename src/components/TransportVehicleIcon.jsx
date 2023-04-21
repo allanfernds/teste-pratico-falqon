@@ -2,12 +2,16 @@ import React from "react";
 
 function TransportVehicleIcon({ image, price, vehicle, color }) {
   return (
-    <div className="flec-col">
+    <div className="flex-col">
       <button type="button">
         <div
-          className={`flex justify-center items-center  ${color} rounded-full p-3 drop-shadow-md`}
+          className={`flex justify-center items-center  ${color} rounded-full p-4 drop-shadow-md`}
         >
-          <img src={image} alt={`${vehicle} image `} />
+          <img
+            src={image}
+            alt={`${vehicle} image`}
+            className="h-[31px] w-[31px]"
+          />
         </div>
       </button>
       <div className="mt-3 hover:text-white">
